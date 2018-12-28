@@ -25,4 +25,20 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function customerDashboard()
+    {
+        return view('customer-dashboard');
+    }
+
+    public function orderDashboard()
+    {
+        return view('order-dashboard');
+    }
+
+    public function orderitemDashboard()
+    {
+        return view('orderitem-dashboard');
+    }
+    
 }

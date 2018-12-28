@@ -1,0 +1,12 @@
+body {
+	background-color: #f8fafc;
+}
+label.col-sm-3.filter-year {
+	max-width: 100%;
+	width: 65%;
+	text-align: right;
+}
+ #chart {
+   max-width: 650px;
+   margin: 35px auto;
+}
